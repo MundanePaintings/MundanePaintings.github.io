@@ -1,7 +1,7 @@
 - What is the meaning of Mundane?
 
 Mundane is an adjective that means ordinary and not interesting in any way and for us this is a myth
-beacause we think that all people have a passion or hobit in something only it has not been found.
+because we think that all people have a passion in something , only it has not been found.
 
 - What is Mundane?
 
