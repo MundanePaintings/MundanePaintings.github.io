@@ -1,0 +1,505 @@
+/** RESETEO PROPIEDADES **/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*BACKGROUND*/
+body {
+    background-image: url(../img/FondoPaginaWeb.jpg);
+    background-attachment: fixed;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/****** LAYOT ******/
+/*** DISPLAY/POSITION/FLOAT ***/
+
+/*** NAV ***/
+nav {
+    position: fixed;
+    z-index: 100;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.navegador>li {
+    display: inline-block;
+}
+
+.navegador li a {
+    display: block;
+}
+
+#banderaEspaña {
+    position: absolute;
+}
+
+#banderaReinoUnido {
+    position: absolute;
+}
+
+#usuario {
+    position: absolute;
+}
+
+#Lupa {
+    position: absolute;
+}
+
+#BolsaCompra {
+    position: absolute;
+}
+
+.navegador li ul {
+    display: none;
+    position: absolute;
+}
+
+.navegador li:hover>ul {
+    display: block;
+}
+
+.navegador li ul li {
+    position: relative;
+}
+
+
+/*** FOOTER ***/
+
+footer {
+    clear: left;
+}
+
+footer section {
+    float: left;
+}
+
+/*** HEIGHT/WIDTH/PADDING/BORDER/MARGIN ***/
+
+nav {
+    width: 100%;
+}
+
+.navegador>li {
+    padding: 22px;
+}
+
+.navegador li ul {
+    margin-top: 14px;
+    padding: 8px;
+}
+
+.navegador li ul a {
+    padding: 6px;
+    font-size: 15px;
+}
+
+#banderaEspaña {
+    width: 37px;
+    top: 19px;
+    right: 320px;
+}
+
+#banderaReinoUnido {
+    width: 45px;
+    top: 20px;
+    right: 240px;
+}
+
+#usuario {
+    top: 7px;
+    right: 160px;
+    margin-right: 0.40%;
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#Lupa {
+    top: 7px;
+    right: 95px;
+    margin-right: 0.40%;
+    margin-top: 5px;
+    width: 32px;
+    height: 32px;
+}
+
+#BolsaCompra {
+    top: 7px;
+    right: 25px;
+    margin-top: 2px;
+    width: 59px;
+    height: 39px
+}
+
+.checkbtn {
+    font-size: 43px;
+    float: right;
+    line-height: 105px;
+    margin-right: 40px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/*** CUERPO PRINCIPAL ***/
+main {
+    padding-top: 130px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#preguntas {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 90px;
+}
+
+#preguntas h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#preguntas>ul {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#preguntas>ul li {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+#preguntas>ul li a {
+    text-align: center;
+    text-decoration: none;
+}
+
+#preguntas article {
+    padding-bottom: 40px;
+}
+
+#preguntas article h2 {
+    padding-bottom: 5px;
+}
+
+#preguntas article ol {
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+section>p{
+    font-size: 20px;
+
+}
+
+#agradecimientos{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold ;
+    font-size: x-large;
+}
+
+/*** FOOTER ***/
+footer section {
+    width: 33.33%;
+    padding-left: 1%;
+    margin-top: 60px;
+}
+
+footer h4 {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+footer ul {
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+footer ul li {
+    padding: 9px;
+}
+
+#DondeEstamos {
+    margin-bottom: 71px;
+}
+
+footer img {
+    margin-top: 55px;
+    padding: 20px;
+    width: 70px;
+    margin-bottom: 60px;
+}
+
+/***** Copyrigth *****/
+
+#copyright {
+    width: 100%;
+}
+
+#copyright p {
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+
+/*----------------------------------------------*/
+/**** ESTILO / COLORES / FONDOS / ETC ****/
+/***NAV***/
+
+nav {
+    background: #272521;
+    text-align: center;
+}
+
+nav ul li {
+    font-family: Arial, sans-serif;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navegador li ul {
+    background-color: #756e62;
+}
+
+
+.navegador li a {
+    transition: 0.5s;
+}
+
+.navegador li a:hover {
+    transition: 0.5s;
+    color: #ddc9b4;
+}
+
+.subApartados li a {
+    margin-right: 15px;
+    margin-left: 5px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.subApartados li a:hover {
+    color: #ddc9b4;
+    font-weight: normal;
+    transform: translatex(9px);
+    transition: 0.3s;
+}
+
+#Lupa {
+    cursor: pointer;
+}
+
+#BolsaCompra {
+    cursor: pointer;
+}
+
+.checkbtn {
+    color: #fff;
+    cursor: pointer;
+}
+
+
+#preguntas {
+    background-color: #fff;
+}
+
+#preguntas h1 , h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#preguntas>ul li a {
+    color: #000;
+}
+
+/*** FOOTER ***/
+footer {
+    text-align: center;
+}
+
+footer section {
+    background-color: #fff;
+    border: #000 1px solid;
+
+}
+
+footer ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer li:hover {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+footer ul li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#DondeEstamosAjuste {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/***** Copyrigth *****/
+#copyright {
+    text-align: center;
+    background: #272521;
+    color: #ffff;
+    font-family: Arial, sans-serif;
+}
+
+/*** Inicio Sesion ***/
+#inicioSesion {
+    display: none;
+}
+
+/**MEDIA QUERY**/
+
+@media (max-width: 1430px) {
+
+    .navegador {
+        font-size: 14px;
+    }
+
+    #banderaEspaña {
+        margin-right: 64%;
+    }
+
+    #banderaReinoUnido {
+        margin-right: 62%;
+    }
+
+    #Lupa {
+        margin-right: -3%;
+    }
+
+    #BolsaCompra {
+        margin-right: 7%;
+    }
+
+    #usuario {
+        margin-right: 3%;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        height: 800px;
+        background: #756e62;
+        top: 105px;
+        text-align: center;
+        transition: all .5s;
+        left: -100%;
+        width: 100%
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 45px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 24px;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        font-weight: bold;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    #banderaEspaña {
+        margin-right: -110px;
+        width: 70px;
+    }
+
+    #banderaReinoUnido {
+        margin-right: -140px;
+        width: 85px;
+    }
+
+    #Lupa {
+        display: none;
+    }
+
+    #usuario {
+        display: none;
+    }
+
+    #BolsaCompra {
+        display: none;
+
+    }
+
+    .navegador>li {
+        display: block;
+    }
+
+    .navegador li a {
+        display: inline-block;
+    }
+
+
+    #subtitulo {
+        padding-bottom: 170px;
+    }
+
+    footer {
+        margin-top: 100px;
+    }
+
+    footer section {
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    #inicioSesion {
+        display: block;
+    }
+
+}
