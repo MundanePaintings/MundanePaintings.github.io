@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>More information</title>
+    <link rel="stylesheet" href="../estilosPaginas/estiloInicioSesion.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/LogoMundane.png" />
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="navegador">
+            <li><a href="../paginas/indexIngles.html">HOME</a></li>
+            <li><a href="../paginas/pintoresIngles.html">PAINTERS</a>
+                <ul class="subApartados">
+                    <li><a href="../paginas/LeonardoDaVinciIngles.html">Leonardo da Vinci</a></li>
+                    <li><a href="../paginas/RafaelSanzioIngles.html">Rafael Sanzio</a></li>
+                    <li><a href="../paginas/SandroBoticelliIngles.html">Sandro Botticelli</a></li>
+                    <li><a href="../paginas/CaravaggioIngles.html">Caravaggio</a>
+                    <li><a href="../paginas/DiegoVelazquezIngles.html">Diego Velazquez</a>
+                    <li><a href="../paginas/GianLorenzoBerniniIngles.html">Gian Lorenzo Berni</a>
+                    <li><a href="../paginas/FranciscoDeGoyaIngles.html">Francisco de Goya</a>
+                    <li><a href="../paginas/GeorgeStubbsIngles.html">George Stubbs</a>
+                    <li><a href="../paginas/FrancescoHayezIngles.html">Francesco Hayez</a>
+                    <li><a href="../paginas/ClaudeMonetIngles.html">Claude Monet</a>
+                    <li><a href="../paginas/PaulCezanneIngles.html">Paul Cezanne</a>
+                    <li><a href="../paginas/VicentVanGoghIngles.html">Van Gogh</a>
+                </ul>
+            </li>
+            <li><a href="../paginas/epocasIngles.html">PERIOD</a>
+                <ul class="subApartados">
+                    <li><a href="../paginas/RenacimientoIngles.html">Renaissance</a></li>
+                    <li><a href="../paginas/BarrocoIngles.html">Baroque</a></li>
+                    <li><a href="../paginas/RomanticismoIngles.html">Romanticism</a></li>
+                    <li><a href="../paginas/ImpresionismoIngles.html">Impressionism</a></li>
+                </ul>
+            </li>
+            <li><a href="../paginas/VendeTuArteIngles.html">SELL YOUR ART</a>
+                <ul class="subApartados">
+                    <li><a href="../paginas/ObrasOriginalesIngles.html">Original works</a></li>
+                    <li><a href="../paginas/MasInformacionIngles.html">More information</a></li>
+                </ul>
+            </li>
+            <li><a href="../paginas/tiendaIngles.html">SHOP</a></li>
+            <li id="inicioSesion"><a href="../paginas/InicioSesionIngles.html">LOGIN</a></li>
+
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon id="BolsaCompra" src="https://cdn.lordicon.com/hyhnpiza.json" trigger="hover"
+                colors="primary:#ffffff">
+            </lord-icon>
+
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon id="Lupa" src="https://cdn.lordicon.com/rlizirgt.json" trigger="hover" colors="primary:#ffffff">
+            </lord-icon>
+
+            <a href="../paginas/InicioSesionIngles.html">
+                <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+                <lord-icon id="usuario" src="https://cdn.lordicon.com/bhfjfgqz.json" trigger="hover"
+                    colors="primary:#ffffff"></lord-icon>
+            </a>
+
+            <a href="../paginas/MasInformacionIngles.html"><img id="banderaReinoUnido"
+                    src="../img/bandera_reinounido.png" /></a>
+            <a href="../paginas/MasInformacion.html"><img id="banderaEspaña"
+                    src="../img/illustration-of-spain-flag.jpg" /></a>
+        </ul>
+    </nav>
+
+        <main>
+            <div class="form-box">
+                <form class="form" method="post" enctype="multipart/form-data" onsubmit="submitForm(event)">
+
+                    <span class="title">Send us your paintings</span>
+                    <span class="subtitle">Fill the form and we will try to answer as soon as possible.</span>
+                    <div class="form-container">
+                        <input type="text" class="input" placeholder="Name" name="name" autocomplete="off" required>
+                        <input type="text" class="input" placeholder="Last name" name="lastname" autocomplete="off" required>
+                        <input type="email" class="input" value="" placeholder="Email" name="email" autocomplete="off" required>
+
+                        <input type="number" class="input" id="precio" name="precio" placeholder="Price" required>
+                        <input type="text" class="input" id="autoria" name="autoria" placeholder="Author" required>
+                        <label id="inputImagen" for="imagen" class="input-label">Select image</label>
+                        <input type="file" class="input" id="imagen" name="imagen" accept="image/*" required>
+                    </div>
+
+                    <div class="form-accept">
+                        <input type="checkbox" id="accept" required />
+                        <label for="accept" id="label-accept">I accept the terms of use.</label>
+                    </div>
+
+                    <button type="submit" value="verificar">Send</button>
+                </form>
+            </div>
+        </main>  
+
+    <footer>
+        <section>
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/ssvybplt.json" trigger="hover" colors="primary:#121331"
+                state="hover-phone-ring" style="width:45px;height:45px;margin-top: 47px;">
+            </lord-icon>
+            <h4>MUNDANE</h4>
+            <ul>
+                <li><a href="../paginas/ContactoIngles.html">CONTACT</a></li>
+                <li><a href="../paginas/SobreNosotrosIngles.html">ABOUT US</a></li>
+                <li><a href="../paginas/PreguntasFrecuenteIngles.html">FREQUENT QUESTIONS</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/osuxyevn.json" trigger="hover"
+                style="width:45px;height:45px;margin-top: 47px;">
+            </lord-icon>
+            <h4>WHERE WE ARE</h4>
+            <ul>
+                <li><a
+                        href="https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsZahoRZTOyOqrdcI5iZmsa9iIkFVw:1669463055505&q=oficinas+malaga&rflfq=1&num=10&ved=2ahUKEwie_I3D4sv7AhVn_7sIHSTgAWMQtgN6BAhREAY#rlfi=hd:;si:8788770199997930374;mv:[[36.72152527634034,-4.413566111648772],[36.70814296203331,-4.445752619827483],null,[36.714834410567306,-4.429659365738128],16]">MAP</a>
+                </li>
+                <li><a href="https://www.youtube.com/watch?v=tGA1v6gZj1s" target="_blank">LISTEN CLASSICAL MUSIC</a>
+                </li>
+                <li><a id="DondeEstamosAjuste">.</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/wxhtpnnk.json" trigger="hover"
+                style="width:45px;height:45px;margin-top: 51px">
+            </lord-icon>
+            <h4>FOLLOW US</h4>
+            <a href="https://www.facebook.com/profile.php?id=100090356077405"><img src="../img/facebook.png"></a>
+            <a href="https://twitter.com/mundanepainting?s=11&t=BDQfdXoU6IX4LdaVJsScRQ"><img
+                    src="../img/gorjeo.png"></a>
+            <a href="https://instagram.com/mundane_paintings?igshid=YmMyMTA2M2Y="><img src="../img/instagram.png"></a>
+        </section>
+    </footer>
+
+
+    <footer id="copyright">
+        <p>&copy; Mundane 2022-2023 - Online sale of paintings and original art by today's artists.</p>
+    </footer>
+
+</body>
+
+</html>
